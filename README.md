@@ -4,7 +4,7 @@ to change tabs in Firefox because the `Alt+<tab_number>` does not work?
 
 This add-on is for you! Now you change tabs with `Ctrl+<tab_number>`.
 
-New keyboard shorcuts you unlock with this add-on:
+New keyboard shortcuts you unlock with this add-on:
 
 - `Ctrl+[1-9]` move to the tab number.
 - `Ctrl+0` move to the last tab.
@@ -16,4 +16,4 @@ This add-on does not override the `Alt+[1-9]` shortcuts.
 
 You can get it at:
 
-`https://addons.mozilla.org/en-US/firefox/addon/ctrl_tabs/`
+https://addons.mozilla.org/en-US/firefox/addon/ctrl_tabs/
