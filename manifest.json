@@ -1,0 +1,84 @@
+{
+
+  "manifest_version": 2,
+  "name": "ctrl_tabs",
+  "version": "0.1",
+
+  "description": "Switch tabs using Ctrl instead of Alt. Intended for i3 users.",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "background": {
+      "scripts": ["ctrl_tabs.js"]
+  },
+
+  "commands": {
+      "1_tab": {
+          "suggested_key": {
+              "default": "Ctrl+1"
+          }
+      },
+      "2_tab": {
+          "suggested_key": {
+              "default": "Ctrl+2"
+          }
+      },
+      "3_tab": {
+          "suggested_key": {
+              "default": "Ctrl+3"
+          }
+      },
+      "4_tab": {
+          "suggested_key": {
+              "default": "Ctrl+4"
+          }
+      },
+      "5_tab": {
+          "suggested_key": {
+              "default": "Ctrl+5"
+          }
+      },
+      "6_tab": {
+          "suggested_key": {
+              "default": "Ctrl+6"
+          }
+      },
+      "7_tab": {
+          "suggested_key": {
+              "default": "Ctrl+7"
+          }
+      },
+      "8_tab": {
+          "suggested_key": {
+              "default": "Ctrl+8"
+          }
+      },
+      "9_tab": {
+          "suggested_key": {
+              "default": "Ctrl+9"
+          }
+      },
+      "last_tab": {
+          "suggested_key": {
+              "default": "Ctrl+Alt+0"
+          }
+      },
+      "left_tab": {
+          "suggested_key": {
+              "default": "Ctrl+Alt+H"
+          }
+      },
+      "right_tab": {
+          "suggested_key": {
+              "default": "Ctrl+Alt+L"
+          }
+      },
+      "close_tab": {
+          "suggested_key": {
+              "default": "Ctrl+Alt+Q"
+          }
+      }
+  }
+}
