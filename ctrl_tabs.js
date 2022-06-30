@@ -36,7 +36,6 @@ browser.commands.onCommand.addListener( (command) => {
  * Set the 'tab_number' tab as active
  * */
 function change_tab(tab_number) {
-    console.log(tab_number);
     browser.tabs.query({active: true}).then( active_tabs => {
         const current_tab = active_tabs[0];
         if(current_tab.index === tab_number) {
@@ -46,7 +45,6 @@ function change_tab(tab_number) {
 
         browser.tabs.query({currentWindow: true}).then( window_tabs => {
             browser.tabs.update(window_tabs.at(tab_number).id, { active: true });
-            console.log(window_tabs);
         });
     });
 }
