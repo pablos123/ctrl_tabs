@@ -7,7 +7,7 @@ This add-on is for you! Now you change tabs with `Ctrl+<tab_number>`.
 New keyboard shortcuts you unlock with this add-on:
 
 - `Ctrl+[1-9]` move to the tab number.
-- `Ctrl+0` move to the last tab.
+- `Ctrl+Alt+0` move to the last tab.
 - `Ctrl+Alt+l` move to the right tab.
 - `Ctrl+Alt+h` move to the left tab.
 - `Ctrl+Alt+q` close the current tab.
